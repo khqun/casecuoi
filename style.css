@@ -397,7 +397,10 @@ background-color: white;
         padding-left: 4px;
         padding-right: 4px;
     }
-
+    .section-1 .btn{
+        width: 125px;
+        height: 45px;
+    }
 }
 @media only screen and (max-width:1200px){
     .section-7 .card{
@@ -424,5 +427,8 @@ background-color: white;
     }
     .nav-1 .navbar-nav .nav-item span{
         font-size: 20px;
+    }
+    .section-3 .fas{
+        font-size: 10px;
     }
 }
