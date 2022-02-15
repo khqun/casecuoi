@@ -387,7 +387,7 @@ background-color: white;
         position: relative;
         left: 135px;
         margin-top: 20px;
-        width: 50%;
+        width: 55%;
     }
     .mid-button {
         width: 170px !important;
@@ -400,6 +400,12 @@ background-color: white;
     .section-1 .btn{
         width: 125px;
         height: 45px;
+    }
+    .section-6 .card-text{
+        font-size: 18px !important;
+    }
+    .section-7 .normalc-text {
+        display:inline-block !important;
     }
 }
 @media only screen and (max-width:1200px){
@@ -430,5 +436,11 @@ background-color: white;
     }
     .section-3 .fas{
         font-size: 10px;
+    }
+    .section-6 .card-text{
+        font-size: 14px;
+    }
+    .section-7 .normalc-text {
+        display: none;
     }
 }
